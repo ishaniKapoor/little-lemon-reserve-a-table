@@ -1,11 +1,12 @@
-import {logo} from "./../assets/Logo.svg";
+import logo from "./../assets/Logo.svg";
+import "./../css/Footer.css";
 
 function Footer(){
     return (
         <footer>
             <img src={logo} alt="Logo of company"></img>
-            <ul>
-                <h1>Doormat Navigation</h1>
+            <ul class="footer-ul dn">
+                <h3>Doormat Navigation</h3>
                 <li><a href="/home">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/menu">Menu</a></li>
@@ -13,14 +14,14 @@ function Footer(){
                 <li><a href="/orderOnline">Order Online</a></li>
                 <li><a href="/login">Login</a></li>
             </ul>
-            <ul>
-                <h1>Contact</h1>
+            <ul class="footer-ul">
+                <h3>Contact</h3>
                 <li>Address</li>
                 <li>Phone number</li>
                 <li>Email</li>
             </ul>
-            <ul>
-                <h1>Social Media Links</h1>
+            <ul class="footer-ul">
+                <h3>Social Media Links</h3>
                 <li>Address</li>
                 <li>Phone number</li>
                 <li>Email</li>
